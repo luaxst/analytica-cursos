@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analytica Cursos</title>  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <img src="Analytica.png" alt="Logo da Empresa" id="logo" class="mb-3">
+        <h1 class="display-4">Analytica Cursos</h1>
+        <p class="lead">Reforço em Análises Clínicas</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Analytica</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#missao">Missão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#visao">Visão</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#metas">Metas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#objetivos">Objetivos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teste">Teste de Aptidão</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <section id="missao" class="mb-5">
+            <h2 class="text-primary">Missão</h2>
+            <p>A nossa missão é fornecer um ensino de qualidade que capacite estudantes e profissionais na área de Análises Clínicas, através de um reforço educacional abrangente e personalizado. Buscamos contribuir para o desenvolvimento de habilidades práticas e teóricas essenciais para o sucesso acadêmico e profissional de nossos alunos.</p>
+        </section>
+
+        <section id="visao" class="mb-5">
+            <h2 class="text-primary">Visão</h2>
+            <p>Ser a instituição de ensino de referência nacional em cursos de reforço para Análises Clínicas, reconhecida pela qualidade de ensino e inovação didática. Almejamos nos tornar um centro de excelência, inspirando mudanças positivas na educação e capacitação de profissionais na área da saúde.</p>
+        </section>
+
+        <section id="metas" class="mb-5">
+            <h2 class="text-primary">Metas</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Aumentar a taxa de aprovação dos alunos em 30% no prazo de 1 ano.</li>
+                <li class="list-group-item">Desenvolver e lançar 5 novos cursos de reforço em áreas emergentes da Análises Clínicas dentro dos próximos 2 anos.</li>
+                <li class="list-group-item">Expandir a oferta de cursos online para alcançar um público maior.</li>
+                <li class="list-group-item">Estabelecer parcerias com instituições de ensino e laboratórios.</li>
+                <li class="list-group-item">Criar um programa de mentoria focado nas principais dificuldades e objetivos dos alunos.</li>
+            </ul>
+        </section>
+
+        <section id="objetivos" class="mb-5">
+            <h2 class="text-primary">Objetivos</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Desenvolver habilidades práticas e teóricas em Análises Clínicas.</li>
+                <li class="list-group-item">Preparar os alunos para atuar de forma competente e ética.</li>
+                <li class="list-group-item">Facilitar a compreensão de conceitos complexos.</li>
+                <li class="list-group-item">Prover suporte contínuo ao aprendizado com materiais didáticos atualizados.</li>
+                <li class="list-group-item">Incentivar a busca constante por atualização e especialização.</li>
+            </ul>
+        </section>
+
+        <section id="teste" class="mb-5">
+            <h2 class="text-primary">Teste de Aptidão</h2>
+            <form id="quiz-form">
+                <!-- Perguntas do Teste -->
+                <div class="mb-3">
+                    <label class="form-label">1. Qual área você considera mais difícil?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="hematologia"> Hematologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="imunologia"> Imunologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="hemoderivados"> Hemoderivados</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="parasitologia"> Parasitologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="bioquimica"> Bioquímica</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question1" value="microbiologia"> Microbiologia</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">2. Qual matéria você sente mais dificuldade em acompanhar as aulas?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="hematologia"> Hematologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="imunologia"> Imunologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="hemoderivados"> Hemoderivados</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="parasitologia"> Parasitologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="bioquimica"> Bioquímica</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question2" value="microbiologia"> Microbiologia</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">3. Qual disciplina você acha mais complicada na prática laboratorial?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="hematologia"> Hematologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="imunologia"> Imunologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="hemoderivados"> Hemoderivados</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="parasitologia"> Parasitologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="bioquimica"> Bioquímica</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question3" value="microbiologia"> Microbiologia</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">4. Qual área você gostaria de aprofundar mais?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="hematologia"> Hematologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="imunologia"> Imunologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="hemoderivados"> Hemoderivados</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="parasitologia"> Parasitologia</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="bioquimica"> Bioquímica</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question4" value="microbiologia"> Microbiologia</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">5. Você se interessa mais por atividades práticas ou teóricas?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question5" value="praticas"> Práticas</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question5" value="teoricas"> Teóricas</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">6. Você prefere trabalhar em equipe ou individualmente?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question6" value="equipe"> Equipe</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question6" value="individualmente"> Individualmente</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">7. O que você considera mais importante em um curso?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question7" value="pratica"> Prática</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question7" value="teoria"> Teoria</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">8. Você gostaria de realizar estágios na área?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question8" value="sim"> Sim</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question8" value="nao"> Não</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">9. Você se vê trabalhando em laboratórios de análises clínicas?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question9" value="sim"> Sim</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question9" value="nao"> Não</div>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">10. Você gosta de interagir com pacientes?</label>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question10" value="sim"> Sim</div>
+                    <div class="form-check"><input class="form-check-input" type="radio" name="question10" value="nao"> Não</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Teste</button>
+            </form>
+            <div id="result" class="mt-4"></div>
+<div id="result" class="alert alert-info text-center mt-4" style="display: none;"></div>
+
+        </section>
+        <section id="cursos" class="mb-5">
+            <h2 class="text-primary">Cursos Disponíveis</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Hematologia</div>
+                        <div class="card-body">
+                            <p>Curso focado em exames hematológicos, incluindo hemogramas, coagulogramas e tipagem sanguínea.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Imunologia</div>
+                        <div class="card-body">
+                            <p>Aprenda sobre a resposta imune, testes sorológicos e diagnósticos imunológicos.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Hemoderivados</div>
+                        <div class="card-body">
+                            <p>Estudo sobre hemocomponentes, transfusões e seus impactos na saúde.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Parasitologia</div>
+                        <div class="card-body">
+                            <p>Análise de parasitas, seus ciclos de vida e diagnósticos laboratoriais.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Bioquímica</div>
+                        <div class="card-body">
+                            <p>Abordagem sobre bioquímica clínica e testes laboratoriais associados.</p>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <div class="card-header bg-primary text-white">Microbiologia</div>
+                        <div class="card-body">
+                            <p>Estudo de microrganismos, suas características e técnicas de identificação.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Analytica Cursos - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

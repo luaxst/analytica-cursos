@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #007bff;
+}
+
+h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 150px; /* Ajuste o tamanho do logo conforme necessário */
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#result {
+    font-size: 1.5rem; /* Tamanho da fonte aumentado */
+    padding: 20px; /* Mais espaço interno */
+    border-radius: 10px; /* Cantos arredondados */
+    margin-top: 20px; /* Espaçamento superior */
+    transition: all 0.3s ease; /* Transição suave */
+    display: none; /* Inicialmente oculto */
+    color: brown;
+}
+
+/* Alerta de resultado */
+.alert {
+    background-color: #d1ecf1; /* Cor de fundo */
+    color: #0d0c60; /* Cor do texto */
+}
